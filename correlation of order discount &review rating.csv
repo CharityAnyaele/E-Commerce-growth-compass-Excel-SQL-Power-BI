@@ -1,0 +1,4 @@
+Discount_Bracket,Average_Product_Rating,Total_Orders_in_Bracket
+"A. No Discount",3.9457,4658
+"B. Low Discount (1-10)",3.9147,3060
+"C. High Discount (>10)",3.9366,3062
