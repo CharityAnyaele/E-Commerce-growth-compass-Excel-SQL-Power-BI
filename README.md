@@ -32,7 +32,7 @@ Created the calculated Margin column by subtracting Cost from Price (Price-Cost)
 This stage involved structuring the clean data in the SQL database, retrieving a master view, and building the necessary formulas in Power BI.
 # SQL Data Structure and Retrieval
 After preparing the raw tables, the cleaned data was imported into a SQL database. The primary action was to join the transactional data with customer, product, and review details into a single
-amd comprehensive table (such as an order year table) suitable for Power BI consumption.
+and a comprehensive table (such as an order year table) suitable for Power BI consumption.
 
 Key SQL Action: The SQL query used JOIN statements (including LEFT JOIN to preserve all transactions even if product or review data was missing) to create the final analytical data set.
 SQL Explanation: The purpose of the SQL query was to combine separate tables (Orders, Customers, Products, Reviews) into one wide table. This makes filtering and cross-analysis in Power BI possible. 
